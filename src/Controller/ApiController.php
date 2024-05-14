@@ -11,8 +11,8 @@ class ApiController extends AbstractController
     #[Route('/api/joueurs/joueurs_count', name: 'app_api')]
       public function joueursCount(): JsonResponse
     {
-        // Remplacez ceci par la logique réelle pour obtenir le nombre de joueurs
-        $nombreDeJoueurs = 10; // Exemple statique
+        
+        $nombreDeJoueurs = 10; 
         return new JsonResponse(['joueurs_count' => $nombreDeJoueurs]);
     }
 }

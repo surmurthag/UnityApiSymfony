@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class ApiController extends AbstractController
 {
-    #[Route('/api', name: 'app_api')]
+    #[Route('/api/joueurs/joueurs_count', name: 'app_api')]
       public function joueursCount(): JsonResponse
     {
         // Remplacez ceci par la logique réelle pour obtenir le nombre de joueurs
